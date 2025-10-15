@@ -40,4 +40,4 @@ Projeto 1 - HTML&CSS/
 
 O projeto está publicado e pode ser acessado através do GitHub Pages no seguinte link:
 
-[Insira aqui o link do seu GitHub Pages quando estiver publicado]
+https://lspelegrina.github.io/Projeto-1-HTML_Programacao-Web-FrontEnd/
