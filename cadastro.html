@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Portal Saber+</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+</head>
+<body>
+    <div class="form-container">
+        <form action="login.html" class="form-box">
+            <a href="index.html" class="form-logo">
+                <img src="img/logo.png" alt="Logo Portal Saber+">
+            </a>
+            <h1>Crie sua Conta</h1>
+            <p>Junte-se à nossa comunidade de estudantes.</p>
+            
+            <div class="form-group">
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="senha">Crie uma Senha</label>
+                <input type="password" id="senha" required>
+            </div>
+
+            <div class="form-group">
+                <label for="confirma-senha">Confirme sua Senha</label>
+                <input type="password" id="confirma-senha" required>
+            </div>
+
+            <div class="form-group">
+                <label for="interesse">Área de Interesse</label>
+                <select id="interesse" required>
+                    <option value="" disabled selected>Selecione uma opção</option>
+                    <option value="vestibular">Vestibular</option>
+                    <option value="enem">ENEM</option>
+                    <option value="concursos">Concursos</option>
+                </select>
+            </div>
+            
+            <button type="submit" class="btn">Criar Conta</button>
+            
+            <div class="form-footer">
+                <p>Já tem uma conta? <a href="login.html">Faça login</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
