@@ -133,7 +133,7 @@ tabelaUsuarios.addEventListener('click', e => {
   }
 });
 
-btnLimpar.addEventListener('click', limparCampos);
+btnLimpar.addEventListener('click', limparCampos, renderizarLista([]));
 btnExcluirTodos.addEventListener('click', excluirTodos);
 inputPesquisa.addEventListener('input', e => pesquisarUsuarios(e.target.value));
 
